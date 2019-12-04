@@ -1,0 +1,104 @@
+{% include header.html %}
+
+<body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %}">
+  
+<main id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+
+        <div id="personal-projects">
+          {% if site.data.professional-projects.section_title != empty %}
+          <h2 class="section-title text-center">{{ site.data.professional-projects.section_title }}</h2>
+          {% endif %}
+          {% if site.data.professional-projects.section_subtitle != empty %}
+          <p class="section-subtitle text-center">{{ site.data.professional-projects.section_subtitle }}</p>
+          {% endif %}
+      
+          <div class="break"></div>
+      
+          {% for post in paginator.posts %}
+          {% if post.type == "professional-project" %}
+            <div class="wow fadeIn">
+            {% if post.position == "left" %}
+            {% include content-left.html %}
+            {% endif %}
+      
+            {% if post.position == "right" %}
+            {% include content-right.html %}
+            {% endif %}
+            </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+      
+        <a class="section-jump text-center" href="#gamejams">
+          <i class="fa fa-angle-down fa-3x"></i>
+        </a>
+      
+        <div class="break"></div>
+
+        <div id="gamejams">
+        {% if site.data.personal-projects.section_title != empty %}
+          <h2 class="section-title text-center">{{ site.data.personal-projects.section_title }}</h2>
+        {% endif %}
+        {% if site.data.personal-projects.section_subtitle != empty %}
+          <p class="section-subtitle text-center">{{ site.data.personal-projects.section_subtitle }}</p>
+        {% endif %}
+
+        <div class="break"></div>
+
+        {% for post in paginator.posts %}
+        {% if post.type == "personal-project" %}
+          <div class="wow fadeIn">
+          {% if post.position == "left" %}
+          {% include content-left.html %}
+          {% endif %}
+
+          {% if post.position == "right" %}
+          {% include content-right.html %}
+          {% endif %}
+          </div>
+        {% endif %}
+        {% endfor %}
+        </div>
+
+        <a class="section-jump text-center" href="#other-projetcs">
+          <i class="fa fa-angle-down fa-3x"></i>
+        </a>
+
+        <div class="break"></div>
+
+        <div id="other-projetcs">
+        {% if site.data.gamejams.section_title != empty %}
+          <h2 class="section-title text-center">{{ site.data.gamejams.section_title }}</h2>
+        {% endif %}
+        {% if site.data.gamejams.section_subtitle != empty %}
+          <p class="section-subtitle text-center">{{ site.data.gamejams.section_subtitle }}</p>
+        {% endif %}
+
+        <div class="break"></div>
+
+        {% for post in paginator.posts %}
+        {% if post.type == "gamejam" %}
+          <div class="wow fadeIn">
+          {% if post.position == "left" %}
+          {% include content-left.html %}
+          {% endif %}
+
+          {% if post.position == "right" %}
+          {% include content-right.html %}
+          {% endif %}
+          </div>
+        {% endif %}
+        {% endfor %}
+        </div>
+
+        {% include pagination.html %}
+
+      </div>
+    </div>
+  </div>
+</main>
+    
+{% include footer.html %}

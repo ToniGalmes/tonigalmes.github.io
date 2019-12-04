@@ -7,48 +7,37 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
-title: Hey! I'm Antoni Galmés
-email: tonigalmes98@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  I'm a student of Tecnocampus Universitat Pompeu Fabra studying videogame design & Production.
-  I mainly focus on programming. I'm also interested in Blockchain and data analysis.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://tonigalmes.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: Galmoli_dev
-github_username:  ToniGalmes
+title: 'Toni Galmés'
+description: 'Game Developer.'
+email: 'tonigalmes98@gmail.com'
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'https://tonigalmes98.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+github_url: 'https://github.com/tonigalmes'
+linkedin_url: 'https://www.linkedin.com/in/tonigalmesoliver/'
 
 # Build settings
-theme: minima
+markdown: kramdown
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+### Phantom settings
+paginate: 1000
+footer_intro: 'This theme is a modification of '
+footer_outro: 'by Jami Gibbs.'
+phantom_theme: 'Phantom'
+phantom_theme_url: 'https://github.com/jamigibbs/phantom'
+admin_name: 'Toni Galmes'
+google_analytics: "UA-9999999-99" # Update with your own tracking ID
+enable_contact: false
+
+#### Phantom Navigation menu
+enable_nav: true
+nav_item:
+  - { url: '/', text: 'HOME' }
+  - { url: '/about', text: 'ABOUT' }
