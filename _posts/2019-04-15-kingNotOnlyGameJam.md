@@ -16,7 +16,7 @@ individual_contribution:
 disclaimer: ''
 
 tags: C#, Unity
-featured_image: '/img/posts/blockExplorer.jpg'
+featured_image: '/img/posts/tecnodance.png'
 
 website_url: 'https://daniriwez.itch.io/tecnodance'
 github_url: ''
