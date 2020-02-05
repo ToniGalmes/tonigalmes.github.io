@@ -18,7 +18,7 @@ disclaimer: ''
 tags: C#, Unity
 featured_image: '/img/posts/Repair_N_Run.gif'
 
-website_url: 'https://daniriwez.itch.io/repairnrun'
+website_url: 'https://daniriwez.itch.io/repair-and-run'
 github_url: ''
 features_url: ''
 individual_contribution_url: ''
