@@ -1,7 +1,7 @@
 ---
 layout: inner
 date: 2019-11-15
-type: personal-project
+type: gamejam
 position: left
 
 title: 'King [Not] Only Games Jam'

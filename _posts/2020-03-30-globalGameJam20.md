@@ -1,7 +1,7 @@
 ---
 layout: inner
 date: 2020-02-03
-type: personal-project
+type: gamejam
 position: right
 
 title: 'Global Game Jam 2020'
@@ -13,13 +13,13 @@ individual_contribution:
     - Node based circut for the AI.
     - Car controller for the player using Unity Physics.
     - Destruction system for the car.
-disclaimer: ''
+disclaimer: 'We are really proud with result and we will continue developing the game to add new features such as a level editor and Multiplayer as well as polish the art and refactor the code'
 
-tags: C#, Unity
+tags: C#, Unity, Physics
 featured_image: '/img/posts/Repair_N_Run.gif'
 
 website_url: 'https://daniriwez.itch.io/repair-and-run'
-github_url: ''
+github_url: 'https://github.com/ToniGalmes/GlobalGameJam2020'
 features_url: ''
 individual_contribution_url: ''
 ---

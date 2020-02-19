@@ -7,7 +7,7 @@
     <div class="row">
       <div class="col-md-12">
 
-        <div id="personal-projects">
+        <div id="professional-projects">
           {% if site.data.professional-projects.section_title != empty %}
           <h2 class="section-title text-center">{{ site.data.professional-projects.section_title }}</h2>
           {% endif %}
@@ -32,13 +32,13 @@
           {% endfor %}
         </div>
       
-        <a class="section-jump text-center" href="#gamejams">
+        <a class="section-jump text-center" href="#personal-projects">
           <i class="fa fa-angle-down fa-3x"></i>
         </a>
       
         <div class="break"></div>
 
-        <div id="gamejams">
+        <div id="personal-projects">
         {% if site.data.personal-projects.section_title != empty %}
           <h2 class="section-title text-center">{{ site.data.personal-projects.section_title }}</h2>
         {% endif %}
@@ -63,13 +63,13 @@
         {% endfor %}
         </div>
 
-        <a class="section-jump text-center" href="#other-projetcs">
+        <a class="section-jump text-center" href="#gamejams">
           <i class="fa fa-angle-down fa-3x"></i>
         </a>
 
         <div class="break"></div>
 
-        <div id="other-projetcs">
+        <div id="gamejams">
         {% if site.data.gamejams.section_title != empty %}
           <h2 class="section-title text-center">{{ site.data.gamejams.section_title }}</h2>
         {% endif %}

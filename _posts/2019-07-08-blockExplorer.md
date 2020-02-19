@@ -1,7 +1,7 @@
 ---
 layout: inner
 date: 2019-07-8
-type: professional-project
+type: personal-project
 position: right
 
 title: 'Stratis Block Explorer'
