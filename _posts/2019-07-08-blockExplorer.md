@@ -6,7 +6,7 @@ position: right
 
 title: 'Stratis Block Explorer'
 year: '2019'
-description: 'A Blockchain Explorer App built in Unity to search for Blocks and Transactions. I designed and implemented the UI from scratch'
+description: 'A Blockchain Explorer App built in Unity to search for Blocks and Transactions. I designed and implemented the UI from scratch.'
 features: 
     - Block Explorer
     - Search for Transactions and Addresses
