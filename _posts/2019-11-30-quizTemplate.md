@@ -7,7 +7,7 @@ position: right
 title: 'Quiz Template'
 year: '2019'
 description: 'This is the first project I got assigned as freelance developer in upwork.com. For this job I had to develop an Unity template that enables the client to build quiz games easily and quickly. The project was developed and delivered in the agreed date.'
-features: 
+feaures: 
     - Scalable UI.
     - Easily create levels and categories
     - Google Play Cloud savings.
@@ -15,7 +15,7 @@ features:
     - Admob ads.
     - In-app purchases.
 individual_contribution: ''
-disclaimer: 'At the moment the client has not published any game with this template. As soon as he publishes one, I will add the link.'
+disclaimer: ''
 
 tags: C#, Unity, Template
 featured_image: '/img/posts/megaquiz.jpg'

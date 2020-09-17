@@ -13,12 +13,12 @@ features:
     - See realtime price
     - Personal wallet
 individual_contribution: ''
-disclaimer: 'The app is still in development since I am waiting for a SDK to be published to be able to develop the wallet'
+disclaimer: 'The app has been discontinued because Stratis Ltd. made the connections to their API private.'
 
 tags: C#, Blockchain
 featured_image: '/img/posts/blockExplorer.jpg'
 
-website_url: ''
+website_url: 'https://play.google.com/store/apps/details?id=com.koouplay.stratisexplorermobile&hl=en_IE'
 github_url: ''
 features_url: ''
 individual_contribution_url: ''
