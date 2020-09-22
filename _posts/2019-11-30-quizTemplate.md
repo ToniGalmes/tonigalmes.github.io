@@ -7,9 +7,9 @@ position: right
 title: 'Quiz Template'
 year: '2019'
 description: 'This is the first project I got assigned as freelance developer in upwork.com. For this job I had to develop an Unity template that enables the client to build quiz games easily and quickly. The project was developed and delivered in the agreed date.'
-feaures: 
+features: 
     - Scalable UI.
-    - Easily create levels and categories
+    - Content importing tools.
     - Google Play Cloud savings.
     - Localization.
     - Admob ads.

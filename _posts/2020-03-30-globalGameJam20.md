@@ -13,7 +13,7 @@ individual_contribution:
     - Node based circut for the AI.
     - Car controller for the player using Unity Physics.
     - Destruction system for the car.
-disclaimer: 'We are really proud with result and we will continue developing the game to add new features such as a level editor and Multiplayer as well as polish the art and refactor the code'
+disclaimer: ''
 
 tags: C#, Unity, Physics
 featured_image: '/img/posts/Repair_N_Run.gif'

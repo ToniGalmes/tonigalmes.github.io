@@ -19,7 +19,7 @@ tags: C#, Unity
 featured_image: '/img/posts/tecnodance.gif'
 
 website_url: 'https://daniriwez.itch.io/tecnodance'
-github_url: ''
+github_url: 'https://github.com/ToniGalmes/King_NotOnlyGamesJam'
 features_url: ''
 individual_contribution_url: ''
 ---
