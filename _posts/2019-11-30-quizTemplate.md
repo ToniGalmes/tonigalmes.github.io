@@ -17,7 +17,7 @@ features:
 individual_contribution: ''
 disclaimer: ''
 
-tags: C#, Unity, Template
+tags: C# Unity
 featured_image: '/img/posts/megaquiz.jpg'
 
 website_url: ''
